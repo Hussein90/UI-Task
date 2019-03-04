@@ -1,0 +1,161 @@
+body{
+    background-color: #D6DFE4;
+}
+.container-full{
+    display: grid;
+    height: auto;
+    width: auto;
+}
+.nav-wrapper{
+    background-color: rgb(43, 182, 115);
+}
+
+footer{
+    background-color: rgb(43, 182, 115);
+}
+.row{
+    
+   display:flex;
+   justify-content: center;
+   align-content: center;
+   text-align: center;
+   margin-top: 1%;
+}
+.row .col.s4{
+    font-size: 45px;
+    color: #d5eddf;
+}
+img.ad.svg {
+    margin-bottom: -5px;
+}
+.svg {
+    margin-bottom: -4px;
+    width: 9%;
+    margin-left: 2px;
+}
+
+
+i.tiny {
+    font-size: 2rem!important;
+}
+
+.grid-example.col.s12 {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    background-color: rgb(43, 182, 115);
+    width: 90%;
+    color: rgba(255, 255, 255, 255);
+    display: flex;
+    left: 0;
+    padding: 1%;
+    border-radius: 10px;
+}
+.card .card-content p {
+
+    font-family: ﻿Cairo-Regular, ﻿MyriadPro-Regular, ﻿AdobeInvisFont, ﻿MyriadArabic-Regular;
+    font-size: 36pt;
+    color: rgba(50, 49, 49, 255);;
+}
+
+
+div.input-field input[type=search] ~ .material-icons {
+    left:1rem!important;
+     right:auto!important;
+}
+
+
+.input-field input[type=search]+.label-icon {
+
+    right: 1rem!important;
+}
+
+
+/* Card*/
+.card{
+    margin: 1%!important;
+    border-radius: 5px!important;
+}
+.card .card-image img{
+    border-radius: 5px 5px  0px  0px!important;
+}
+.card .card-content{
+padding:0!important;
+}
+
+
+
+.grid-wrapper {
+     margin: 3%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    
+    
+  }
+  img.svg.chat {
+    margin-left: -19px;
+    margin-bottom: 17px;
+    width: 20px;
+}
+p.info {
+    margin-top: -11%;
+    margin-left: 33%;
+    font-family: Cairo-Bold, AdobeInvisFont, MyriadArabic-Regular;
+    font-size: 12pt;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+}
+  @media only screen and (max-width: 768px) {
+      /*For mobile screens only */
+    .row .col.s4 {
+        font-size:15px;
+        margin-top: 3%;
+    }
+    p.info {
+        margin-top: -25%;
+        margin-left: 69%;
+        font-family: Cairo-Bold, AdobeInvisFont, MyriadArabic-Regular;
+        font-size: 6pt;
+        color: rgba(255, 255, 255, 255);
+        text-align: center;
+    }
+    .wrapper {
+        margin:5%;
+    }
+    .svg {
+        margin-bottom: -6px;
+        width: 27%!important;
+        margin-left: 2px;
+    }
+
+    .card .card-content p {
+        font-size: 13px;
+    }
+    i.material-icons.location {
+        font-size: 1rem;
+    }
+    img.svg.chat {
+        margin-bottom: 3px;
+        width: 15%!important;
+        margin-left: -12px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
